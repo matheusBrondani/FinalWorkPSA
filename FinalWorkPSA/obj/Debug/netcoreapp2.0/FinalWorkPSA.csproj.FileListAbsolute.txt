@@ -9,3 +9,14 @@ C:\Users\15111258\Desktop\Samples\FinalWorkPSA\FinalWorkPSA\obj\Debug\netcoreapp
 C:\Users\15111258\Desktop\Samples\FinalWorkPSA\FinalWorkPSA\bin\Debug\netcoreapp2.0\FinalWorkPSA.pdb
 C:\Users\15111258\Desktop\Samples\FinalWorkPSA\FinalWorkPSA\obj\Debug\netcoreapp2.0\FinalWorkPSA.dll
 C:\Users\15111258\Desktop\Samples\FinalWorkPSA\FinalWorkPSA\obj\Debug\netcoreapp2.0\FinalWorkPSA.pdb
+C:\Users\15111258\Desktop\FinalWork\FinalWorkPSA\FinalWorkPSA\bin\Debug\netcoreapp2.0\FinalWorkPSA.deps.json
+C:\Users\15111258\Desktop\FinalWork\FinalWorkPSA\FinalWorkPSA\bin\Debug\netcoreapp2.0\FinalWorkPSA.runtimeconfig.json
+C:\Users\15111258\Desktop\FinalWork\FinalWorkPSA\FinalWorkPSA\bin\Debug\netcoreapp2.0\FinalWorkPSA.runtimeconfig.dev.json
+C:\Users\15111258\Desktop\FinalWork\FinalWorkPSA\FinalWorkPSA\bin\Debug\netcoreapp2.0\FinalWorkPSA.dll
+C:\Users\15111258\Desktop\FinalWork\FinalWorkPSA\FinalWorkPSA\bin\Debug\netcoreapp2.0\FinalWorkPSA.pdb
+C:\Users\15111258\Desktop\FinalWork\FinalWorkPSA\FinalWorkPSA\obj\Debug\netcoreapp2.0\FinalWorkPSA.csprojResolveAssemblyReference.cache
+C:\Users\15111258\Desktop\FinalWork\FinalWorkPSA\FinalWorkPSA\obj\Debug\netcoreapp2.0\FinalWorkPSA.csproj.CoreCompileInputs.cache
+C:\Users\15111258\Desktop\FinalWork\FinalWorkPSA\FinalWorkPSA\obj\Debug\netcoreapp2.0\FinalWorkPSA.AssemblyInfoInputs.cache
+C:\Users\15111258\Desktop\FinalWork\FinalWorkPSA\FinalWorkPSA\obj\Debug\netcoreapp2.0\FinalWorkPSA.AssemblyInfo.cs
+C:\Users\15111258\Desktop\FinalWork\FinalWorkPSA\FinalWorkPSA\obj\Debug\netcoreapp2.0\FinalWorkPSA.dll
+C:\Users\15111258\Desktop\FinalWork\FinalWorkPSA\FinalWorkPSA\obj\Debug\netcoreapp2.0\FinalWorkPSA.pdb

@@ -13250,11 +13250,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\15111258\\Desktop\\Samples\\FinalWorkPSA\\FinalWorkPSA\\FinalWorkPSA.csproj",
+      "projectUniqueName": "C:\\Users\\15111258\\Desktop\\FinalWork\\FinalWorkPSA\\FinalWorkPSA\\FinalWorkPSA.csproj",
       "projectName": "FinalWorkPSA",
-      "projectPath": "C:\\Users\\15111258\\Desktop\\Samples\\FinalWorkPSA\\FinalWorkPSA\\FinalWorkPSA.csproj",
+      "projectPath": "C:\\Users\\15111258\\Desktop\\FinalWork\\FinalWorkPSA\\FinalWorkPSA\\FinalWorkPSA.csproj",
       "packagesPath": "C:\\Users\\15111258\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\15111258\\Desktop\\Samples\\FinalWorkPSA\\FinalWorkPSA\\obj\\",
+      "outputPath": "C:\\Users\\15111258\\Desktop\\FinalWork\\FinalWorkPSA\\FinalWorkPSA\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
