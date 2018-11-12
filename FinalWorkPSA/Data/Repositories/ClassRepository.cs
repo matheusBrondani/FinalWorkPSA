@@ -3,7 +3,7 @@ using FinalWorkPSA.Data.Context;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace CopaStefaniniBackEnd.Data.Repositories
+namespace FinalWorkPSA.Data.Repositories
 {
     public class ClassRepository
     {

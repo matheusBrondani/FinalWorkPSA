@@ -3,7 +3,7 @@ using FinalWorkPSA.Data.Context;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace CopaStefaniniBackEnd.Data.Repositories
+namespace FinalWorkPSA.Data.Repositories
 {
     public class RequirementRepository
     {
@@ -14,19 +14,19 @@ namespace CopaStefaniniBackEnd.Data.Repositories
         }
 
         //Retorna todos os times do contexto
-        public List<Requirement> GetAllRequirement()
+        public List<RequirementService> GetAllRequirement()
         {
             return _context.Requirement.ToList();
         }
 
         //Retorna o time vinculado ao ID
-        public Requirement GetRequirementById(int id)
+        public RequirementService GetRequirementById(int id)
         {
             return _context.Requirement.Find(id);
         }
 
         //Insere um time novo
-        public void PostRequirement(Requirement newRequirement)
+        public void PostRequirement(RequirementService newRequirement)
         {
             // newRequirement.IdRequirement = _context.Requirement.Max(p => p.IdRequirement) + 1;
 
@@ -35,7 +35,7 @@ namespace CopaStefaniniBackEnd.Data.Repositories
         }
 
         //Atualiza um time
-        public void PutRequirement(int id, Requirement upRequirement)
+        public void PutRequirement(int id, RequirementService upRequirement)
         {
             // var toUpRequirement = _context.Requirement.Find(id);
 

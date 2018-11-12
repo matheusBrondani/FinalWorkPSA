@@ -3,7 +3,7 @@ using FinalWorkPSA.Data.Context;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace CopaStefaniniBackEnd.Data.Repositories
+namespace FinalWorkPSA.Data.Repositories
 {
     public class StudentRepository
     {
@@ -14,19 +14,19 @@ namespace CopaStefaniniBackEnd.Data.Repositories
         }
 
         //Retorna todos os times do contexto
-        public List<Student> GetAllStudent()
+        public List<StudentService> GetAllStudent()
         {
             return _context.Student.ToList();
         }
 
         //Retorna o time vinculado ao ID
-        public Student GetStudentById(int id)
+        public StudentService GetStudentById(int id)
         {
             return _context.Student.Find(id);
         }
 
         //Insere um time novo
-        public void PostStudent(Student newStudent)
+        public void PostStudent(StudentService newStudent)
         {
             // newStudent.IdStudent = _context.Student.Max(p => p.IdStudent) + 1;
 
@@ -35,7 +35,7 @@ namespace CopaStefaniniBackEnd.Data.Repositories
         }
 
         //Atualiza um time
-        public void PutStudent(int id, Student upStudent)
+        public void PutStudent(int id, StudentService upStudent)
         {
             // var toUpStudent = _context.Student.Find(id);
 

@@ -3,7 +3,7 @@ using FinalWorkPSA.Data.Context;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace CopaStefaniniBackEnd.Data.Repositories
+namespace FinalWorkPSA.Data.Repositories
 {
     public class HistoricRepository
     {
@@ -14,19 +14,19 @@ namespace CopaStefaniniBackEnd.Data.Repositories
         }
 
         //Retorna todos os times do contexto
-        public List<Historic> GetAllHistoric()
+        public List<HistoricService> GetAllHistoric()
         {
             return _context.Historic.ToList();
         }
 
         //Retorna o time vinculado ao ID
-        public Historic GetHistoricById(int id)
+        public HistoricService GetHistoricById(int id)
         {
             return _context.Historic.Find(id);
         }
 
         //Insere um time novo
-        public void PostHistoric(Historic newHistoric)
+        public void PostHistoric(HistoricService newHistoric)
         {
             // newHistoric.IdHistoric = _context.Historic.Max(p => p.IdHistoric) + 1;
 
@@ -35,7 +35,7 @@ namespace CopaStefaniniBackEnd.Data.Repositories
         }
 
         //Atualiza um time
-        public void PutHistoric(int id, Historic upHistoric)
+        public void PutHistoric(int id, HistoricService upHistoric)
         {
             // var toUpHistoric = _context.Historic.Find(id);
 

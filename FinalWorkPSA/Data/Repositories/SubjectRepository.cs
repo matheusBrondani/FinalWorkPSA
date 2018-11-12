@@ -3,7 +3,7 @@ using FinalWorkPSA.Data.Context;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace CopaStefaniniBackEnd.Data.Repositories
+namespace FinalWorkPSA.Data.Repositories
 {
     public class SubjectRepository
     {
@@ -14,19 +14,19 @@ namespace CopaStefaniniBackEnd.Data.Repositories
         }
 
         //Retorna todos os times do contexto
-        public List<Subject> GetAllSubject()
+        public List<SubjectService> GetAllSubject()
         {
             return _context.Subject.ToList();
         }
 
         //Retorna o time vinculado ao ID
-        public Subject GetSubjectById(int id)
+        public SubjectService GetSubjectById(int id)
         {
             return _context.Subject.Find(id);
         }
 
         //Insere um time novo
-        public void PostSubject(Subject newSubject)
+        public void PostSubject(SubjectService newSubject)
         {
             // newSubject.IdSubject = _context.Subject.Max(p => p.IdSubject) + 1;
 
@@ -35,7 +35,7 @@ namespace CopaStefaniniBackEnd.Data.Repositories
         }
 
         //Atualiza um time
-        public void PutSubject(int id, Subject upSubject)
+        public void PutSubject(int id, SubjectService upSubject)
         {
             // var toUpSubject = _context.Subject.Find(id);
 

@@ -12,9 +12,9 @@ namespace FinalWorkPSA.Data.Context
         public RegistryContext(DbContextOptions<RegistryContext> options) : base(options) { }
 
         public DbSet<Class> Class { get; set; }
-        public DbSet<Historic> Historic { get; set; } 
-        public DbSet<Requirement> Requirement { get; set; }
-        public DbSet<Student> Student { get; set; }
-        public DbSet<Subject> Subject { get; set; }
+        public DbSet<HistoricService> Historic { get; set; } 
+        public DbSet<RequirementService> Requirement { get; set; }
+        public DbSet<StudentService> Student { get; set; }
+        public DbSet<SubjectService> Subject { get; set; }
     }
 }

@@ -23,6 +23,7 @@ namespace CopaStefaniniBackEnd.Data
             // TODO 
             // Criar inicialização do banco 
             // Pegando os dados dos csv's para popular o banco de dados 
+            //https://joshclose.github.io/CsvHelper/
             // //Insere na inicialização do banco de teste os players
             // cupContext.Players.Add(new Player(1, "Ronaldo Fenomeno", 1, 22, 1, 0, true));
 
