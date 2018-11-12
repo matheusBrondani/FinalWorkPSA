@@ -9,6 +9,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Swashbuckle.AspNetCore.Swagger;
+using FinalWorkPSA.Data.Context;
+using FinalWorkPSA.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace FinalWorkPSA
 {
@@ -24,6 +27,12 @@ namespace FinalWorkPSA
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<RegistryContext>(opt => opt.UseInMemoryDatabase("ResgistryDb"));
+            // services.AddTransient<PlayerService>();
+            // services.AddTransient<PlayerRepository>();
+            // services.AddTransient<TeamService>();
+            // services.AddTransient<TeamRepository>();
+
             services.AddMvc();
 
             services.AddSwaggerGen(c =>
